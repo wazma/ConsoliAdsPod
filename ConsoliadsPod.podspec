@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'A short description of ConsoliadsPod. Just a description we are using'
                        DESC
 
   s.homepage         = 'https://github.com/Wazma Ali/ConsoliadsPod'
@@ -26,11 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wazma Ali' => 'wazma.ali@consoliads.com' }
   s.source           = { :git => 'https://github.com/Wazma Ali/ConsoliadsPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://twitter.com/Wazma Ali'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'ConsoliadsPod/Classes/**/*'
+
+  s.platforms={
+    "ios":"13.0"
+}
   
   # s.resource_bundles = {
   #   'ConsoliadsPod' => ['ConsoliadsPod/Assets/*.png']
