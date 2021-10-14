@@ -1,0 +1,6 @@
+framework module ConsoliadsPod {
+  umbrella header "ConsoliadsPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
