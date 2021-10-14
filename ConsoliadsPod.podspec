@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   'A short description of ConsoliadsPod. Just a description we are using'
                        DESC
 
-  s.homepage         = 'https://github.com/Wazma Ali/ConsoliadsPod'
+  s.homepage         = 'https://github.com/wazma/ConsoliadsPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wazma Ali' => 'wazma.ali@consoliads.com' }
-  s.source           = { :git => 'https://github.com/Wazma Ali/ConsoliadsPod.git', :tag => s.version.to_s }
-   s.social_media_url = 'https://twitter.com/Wazma Ali'
+  s.source           = { :git => 'https://github.com/wazma/ConsoliadsPod.git', :tag => s.version.to_s }
+   s.social_media_url = 'https://twitter.com/wazma'
 
   s.ios.deployment_target = '13.0'
 
