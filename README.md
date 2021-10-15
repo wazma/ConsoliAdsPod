@@ -1,7 +1,7 @@
 # ConsoliadsPod
 
 [![CI Status](https://img.shields.io/travis/Wazma Ali/ConsoliadsPod.svg?style=flat)](https://travis-ci.org/Wazma Ali/ConsoliadsPod)
-[![Version](https://img.shields.io/cocoapods/v/ConsoliadsPod.svg?style=flat)](https://cocoapods.org/pods/ConsoliadsPod)
+[![Version](https://img.shields.io/badge/v0.1.2-Shutup-red)](https://cocoapods.org/pods/ConsoliadsPod)
 [![License](https://img.shields.io/cocoapods/l/ConsoliadsPod.svg?style=flat)](https://cocoapods.org/pods/ConsoliadsPod)
 [![Platform](https://img.shields.io/cocoapods/p/ConsoliadsPod.svg?style=flat)](https://cocoapods.org/pods/ConsoliadsPod)
 
