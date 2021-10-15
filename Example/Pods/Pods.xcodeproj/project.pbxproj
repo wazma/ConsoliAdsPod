@@ -127,6 +127,37 @@
 		B9F8C6F88AA6C5B3032CEA98403AEC32 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DD008B1C8CCDB66E9DB3DD2858D513 /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA05CD9F63D995F3AEC7CB30F797A5E2 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BEB660D20F2DBECD7A04C393C603A4 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA46355660822694B0C7DC5E63201B58 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A80F86945A31D125D731C058878E6F /* UIApplication+StrictKeyWindow.m */; };
+		BA5FE41D2719A313002BFA99 /* CAIconAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE3FE2719A313002BFA99 /* CAIconAdView.h */; };
+		BA5FE41E2719A313002BFA99 /* libconsoliads-mediation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE3FF2719A313002BFA99 /* libconsoliads-mediation.a */; };
+		BA5FE41F2719A313002BFA99 /* CANativeAdMediaView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4002719A313002BFA99 /* CANativeAdMediaView.h */; };
+		BA5FE4202719A313002BFA99 /* libConsoliAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE4012719A313002BFA99 /* libConsoliAd.a */; };
+		BA5FE4212719A313002BFA99 /* ConsoliAdsBannerTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4022719A313002BFA99 /* ConsoliAdsBannerTypes.h */; };
+		BA5FE4222719A313002BFA99 /* IconAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4032719A313002BFA99 /* IconAdView.h */; };
+		BA5FE4232719A313002BFA99 /* ConsoliAdIOSPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4042719A313002BFA99 /* ConsoliAdIOSPlugin.h */; };
+		BA5FE4242719A313002BFA99 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BA5FE4052719A313002BFA99 /* .gitkeep */; };
+		BA5FE4252719A313002BFA99 /* CAMediatedBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4062719A313002BFA99 /* CAMediatedBannerView.h */; };
+		BA5FE4262719A313002BFA99 /* NativeAdBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4072719A313002BFA99 /* NativeAdBase.h */; };
+		BA5FE4272719A313002BFA99 /* MediationNativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4082719A313002BFA99 /* MediationNativeAdView.h */; };
+		BA5FE4282719A313002BFA99 /* ConsoliAdsIconAdSizes.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4092719A313002BFA99 /* ConsoliAdsIconAdSizes.h */; };
+		BA5FE4292719A313002BFA99 /* libConsoliMediation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE40A2719A313002BFA99 /* libConsoliMediation.a */; };
+		BA5FE42A2719A313002BFA99 /* MediationNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5FE40B2719A313002BFA99 /* MediationNativeAdView.xib */; };
+		BA5FE42B2719A313002BFA99 /* ConsoliSDKAdsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE40C2719A313002BFA99 /* ConsoliSDKAdsDelegate.h */; };
+		BA5FE42C2719A313002BFA99 /* CAMediatedNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE40D2719A313002BFA99 /* CAMediatedNativeAd.h */; };
+		BA5FE42D2719A313002BFA99 /* CAMediationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE40E2719A313002BFA99 /* CAMediationConstants.h */; };
+		BA5FE42E2719A313002BFA99 /* CAInAppDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE40F2719A313002BFA99 /* CAInAppDetails.h */; };
+		BA5FE42F2719A313002BFA99 /* ConsoliAdsMediationIconAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4102719A313002BFA99 /* ConsoliAdsMediationIconAdDelegate.h */; };
+		BA5FE4302719A313002BFA99 /* ConsoliAdsMediationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4112719A313002BFA99 /* ConsoliAdsMediationDelegate.h */; };
+		BA5FE4312719A313002BFA99 /* MediationNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5FE4122719A313002BFA99 /* MediationNativeAdView.m */; };
+		BA5FE4322719A313002BFA99 /* IconAdBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4132719A313002BFA99 /* IconAdBase.h */; };
+		BA5FE4332719A313002BFA99 /* CAAdChoicesView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4142719A313002BFA99 /* CAAdChoicesView.h */; };
+		BA5FE4342719A313002BFA99 /* CANativeAdRenderingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4152719A313002BFA99 /* CANativeAdRenderingDelegate.h */; };
+		BA5FE4352719A313002BFA99 /* BannerAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4162719A313002BFA99 /* BannerAdDelegate.h */; };
+		BA5FE4362719A313002BFA99 /* NativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4172719A313002BFA99 /* NativeAdView.h */; };
+		BA5FE4372719A313002BFA99 /* ConsoliAdsMediation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4182719A313002BFA99 /* ConsoliAdsMediation.h */; };
+		BA5FE4382719A313002BFA99 /* CAInAppError.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE4192719A313002BFA99 /* CAInAppError.h */; };
+		BA5FE4392719A313002BFA99 /* CANativeAdRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE41A2719A313002BFA99 /* CANativeAdRequestDelegate.h */; };
+		BA5FE43A2719A313002BFA99 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5FE41B2719A313002BFA99 /* ReplaceMe.m */; };
+		BA5FE43B2719A313002BFA99 /* IconAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FE41C2719A313002BFA99 /* IconAdDelegate.h */; };
 		BC591480C878A1F8B2508AE53B4E2ECF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F2562E42CC03567292CE055CC33D5EA5 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BCA4355122D02E7855C112DB327E2AC1 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3775741B1E1FF31F13FCA7C0CD488B /* SPTCallSite.m */; };
 		BDFB4452AF2EAB59CC8EC8AD2CB42EAD /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2567178B0ABBEB28AA767A839F7320DB /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -227,14 +258,14 @@
 		019A89DA7820B809D45D2D192CD027E5 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		037F5CF6DD82B4B454527CB4C0B46851 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
-		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF4C9FFB0A78AC6EDF88B9D1F647C94 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		0DD6FF7766CC0E6A8CC6E4C5FF10CC21 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1004F3B0D7B836E2BE433BDE8AAEA723 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		108488F285A773A3BCE052B9350CD6CD /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		117C48A3582464793C0BA23655596FA3 /* ConsoliadsPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConsoliadsPod-prefix.pch"; sourceTree = "<group>"; };
 		11C434CE614C6FF519706E65A461EDED /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
-		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		163E643A2B63CA5BC22F96491ADA4108 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		168F2EE5C1B31D8C40138277F65FE1AB /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		174709D9B6F02218DE554547920C87F8 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
@@ -246,7 +277,7 @@
 		1FA89DE2872A452300439F9F1E40E35A /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		1FD6BF42F46FC94FDB5AD2C7B2BDF43E /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		208BAA193E3DBC090FB7DBAD81A67EB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		216115E3D0F31F728CC38C4C3EEED046 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
 		220A0E011AFFDA3021348B51AF9B5116 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		2291A8EC5593038EAD6122C7DB6BF576 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
@@ -262,7 +293,7 @@
 		2F42071713F678B23AD3B97F57C7C1C7 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		2FCB589DC8253A7CC52B48C5CFC400EA /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		30A583A28600B6024E142CEE3AC34642 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
-		313BC663730383018C625057775E1374 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		313BC663730383018C625057775E1374 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		32D3545A01262C6D92DF5D83E71971DF /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		341E8A92EA72131AA5D904702C0FE48C /* Pods-ConsoliadsPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsoliadsPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		36535DF4FAC52050BAB903AAAAF4C404 /* Pods-ConsoliadsPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliadsPod_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -298,9 +329,9 @@
 		587824262CA4D103C60B03629B19F525 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		59A0A37A02735D77CBA0BBD9D6BC9A12 /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		5B3E7376163665ECB601E7227F39CE35 /* ConsoliadsPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConsoliadsPod.framework; path = ConsoliadsPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3E7376163665ECB601E7227F39CE35 /* ConsoliadsPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConsoliadsPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B587F705BFFCCBD0E65FA3DAF35FA1D /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3775741B1E1FF31F13FCA7C0CD488B /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		6111F071CD75E6A47B379243C38F59CC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		6114B7F6B9C33525BA95B209F5AFC814 /* Pods-ConsoliadsPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConsoliadsPod_Example.modulemap"; sourceTree = "<group>"; };
@@ -314,7 +345,7 @@
 		6F8DD5EECCB60C0E08BD32324A8E8649 /* Expecta+Snapshots-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta+Snapshots-Info.plist"; sourceTree = "<group>"; };
 		6FCDD127923D81FCC10FA3EC547194B7 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		7495229ED326CAFE4282BE02C761C070 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		74D3458D58DB58DC293E516B86B1EC8D /* Pods_ConsoliadsPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConsoliadsPod_Example.framework; path = "Pods-ConsoliadsPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D3458D58DB58DC293E516B86B1EC8D /* Pods_ConsoliadsPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsoliadsPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F788FE00F7A604ED357B9D966B94A8 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		794FDBA4CB5958E15C9F532F8EDC7F78 /* ConsoliadsPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConsoliadsPod.debug.xcconfig; sourceTree = "<group>"; };
 		7AB65B36803C06E3FCE87BE4E9030529 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
@@ -334,11 +365,11 @@
 		877834322FA508FA93591923AE248986 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		8794D436AF7CD02C352F33E8756DA6AA /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		8936C7A225FA6637A65642D5E63D94EF /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
-		8963782099B06E581FB52EA3DBCC8C5E /* ConsoliadsPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ConsoliadsPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8963782099B06E581FB52EA3DBCC8C5E /* ConsoliadsPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ConsoliadsPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8A90E86082A6B8E5EDE6EA22FD21EB73 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8AEEAD0DA889C257A0A105B8A594D0BE /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		8C58E05B3119F0C2929E9E4EBE15F232 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
-		8CD9FFA8D714AF42FC60F64A3164D449 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8CD9FFA8D714AF42FC60F64A3164D449 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E4E4F07236DB842702419DDA25855C6 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		8E761BE5831E7CE17C4C8D298A1BBCA5 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
 		8EBA4AE1B627D6EF48B55B54BD3B8F78 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -348,7 +379,7 @@
 		9685F6F1DB9CF1394BD80F9DC81C6F38 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		9948276A8B9FABEC11ED2C7A978A2187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9BE5D806DA25F158417B1DB9A3D4D752 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0394BEA7DB87C6313E024C3574B0BD /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		9E9CE2D7E09295A7E3FFD513DC7BF589 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		A1FA6D557A9C3E538CA3D357176CD434 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
@@ -370,10 +401,41 @@
 		B5784BE5B858369EB4432B44521942FD /* ConsoliadsPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConsoliadsPod-umbrella.h"; sourceTree = "<group>"; };
 		B72C72E36DD0F7A361119C6A3ADEAFD5 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
 		B899B3C5E3BA70A45C0DE9181165FC27 /* Pods-ConsoliadsPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsoliadsPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5FE3FE2719A313002BFA99 /* CAIconAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAIconAdView.h; sourceTree = "<group>"; };
+		BA5FE3FF2719A313002BFA99 /* libconsoliads-mediation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libconsoliads-mediation.a"; sourceTree = "<group>"; };
+		BA5FE4002719A313002BFA99 /* CANativeAdMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANativeAdMediaView.h; sourceTree = "<group>"; };
+		BA5FE4012719A313002BFA99 /* libConsoliAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libConsoliAd.a; sourceTree = "<group>"; };
+		BA5FE4022719A313002BFA99 /* ConsoliAdsBannerTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliAdsBannerTypes.h; sourceTree = "<group>"; };
+		BA5FE4032719A313002BFA99 /* IconAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconAdView.h; sourceTree = "<group>"; };
+		BA5FE4042719A313002BFA99 /* ConsoliAdIOSPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliAdIOSPlugin.h; sourceTree = "<group>"; };
+		BA5FE4052719A313002BFA99 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BA5FE4062719A313002BFA99 /* CAMediatedBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMediatedBannerView.h; sourceTree = "<group>"; };
+		BA5FE4072719A313002BFA99 /* NativeAdBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdBase.h; sourceTree = "<group>"; };
+		BA5FE4082719A313002BFA99 /* MediationNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediationNativeAdView.h; sourceTree = "<group>"; };
+		BA5FE4092719A313002BFA99 /* ConsoliAdsIconAdSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliAdsIconAdSizes.h; sourceTree = "<group>"; };
+		BA5FE40A2719A313002BFA99 /* libConsoliMediation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libConsoliMediation.a; sourceTree = "<group>"; };
+		BA5FE40B2719A313002BFA99 /* MediationNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediationNativeAdView.xib; sourceTree = "<group>"; };
+		BA5FE40C2719A313002BFA99 /* ConsoliSDKAdsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliSDKAdsDelegate.h; sourceTree = "<group>"; };
+		BA5FE40D2719A313002BFA99 /* CAMediatedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMediatedNativeAd.h; sourceTree = "<group>"; };
+		BA5FE40E2719A313002BFA99 /* CAMediationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMediationConstants.h; sourceTree = "<group>"; };
+		BA5FE40F2719A313002BFA99 /* CAInAppDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAInAppDetails.h; sourceTree = "<group>"; };
+		BA5FE4102719A313002BFA99 /* ConsoliAdsMediationIconAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliAdsMediationIconAdDelegate.h; sourceTree = "<group>"; };
+		BA5FE4112719A313002BFA99 /* ConsoliAdsMediationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliAdsMediationDelegate.h; sourceTree = "<group>"; };
+		BA5FE4122719A313002BFA99 /* MediationNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediationNativeAdView.m; sourceTree = "<group>"; };
+		BA5FE4132719A313002BFA99 /* IconAdBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconAdBase.h; sourceTree = "<group>"; };
+		BA5FE4142719A313002BFA99 /* CAAdChoicesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAdChoicesView.h; sourceTree = "<group>"; };
+		BA5FE4152719A313002BFA99 /* CANativeAdRenderingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANativeAdRenderingDelegate.h; sourceTree = "<group>"; };
+		BA5FE4162719A313002BFA99 /* BannerAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdDelegate.h; sourceTree = "<group>"; };
+		BA5FE4172719A313002BFA99 /* NativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdView.h; sourceTree = "<group>"; };
+		BA5FE4182719A313002BFA99 /* ConsoliAdsMediation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoliAdsMediation.h; sourceTree = "<group>"; };
+		BA5FE4192719A313002BFA99 /* CAInAppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAInAppError.h; sourceTree = "<group>"; };
+		BA5FE41A2719A313002BFA99 /* CANativeAdRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANativeAdRequestDelegate.h; sourceTree = "<group>"; };
+		BA5FE41B2719A313002BFA99 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		BA5FE41C2719A313002BFA99 /* IconAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconAdDelegate.h; sourceTree = "<group>"; };
 		BAC1594F0D2374E5BA180A52DA57710C /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		BD2D16721CDC81DD8C606F52B06C1946 /* Pods-ConsoliadsPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliadsPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BD3E006894002C83D989E90A5E9330F2 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
-		BE2D40EA7C83EFB5D93BEEA959CF5966 /* Pods_ConsoliadsPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConsoliadsPod_Tests.framework; path = "Pods-ConsoliadsPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2D40EA7C83EFB5D93BEEA959CF5966 /* Pods_ConsoliadsPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsoliadsPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E7514AB1F341A616CDFFEB60AE2C49 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		C2C47770A2B7F56356D78B6BC2A100B0 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		C4230741943C64927EC644AF561F2F4C /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
@@ -420,7 +482,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5FE4292719A313002BFA99 /* libConsoliMediation.a in Frameworks */,
+				BA5FE4202719A313002BFA99 /* libConsoliAd.a in Frameworks */,
 				B95465BC4278AC392F3DB2BE7A183A54 /* Foundation.framework in Frameworks */,
+				BA5FE41E2719A313002BFA99 /* libconsoliads-mediation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +558,6 @@
 				511C46E784B9996D7B2F64848F053C7E /* EXPMatchers+FBSnapshotTest.m */,
 				0F23D28A4444D894C38CEF515383653C /* Support Files */,
 			);
-			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -730,7 +794,6 @@
 				037F5CF6DD82B4B454527CB4C0B46851 /* NSValue+Expecta.m */,
 				359E3CB4F5CA2328797997A02B045652 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -741,13 +804,13 @@
 				F31F56FF90B92A6836165326564818BB /* Support Files */,
 				B5B89E42258BE32A66C75CB2AB3C6E1D /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		8B6D7C4AEB450C6C133ACCC57614384C /* ConsoliadsPod */ = {
 			isa = PBXGroup;
 			children = (
+				BA5FE3FD2719A313002BFA99 /* Classes */,
 				D2861FB640544146BDB772BEE6F5837B /* ReplaceMe.m */,
 				34DE8E251890C480AC0B7306ACD4EE8A /* Pod */,
 				AB4614E84273C41B27F3E272E2D43CD0 /* Support Files */,
@@ -786,7 +849,6 @@
 				01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */,
 				29E624CAE3E3AC37ACA96A547E60E03E /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -811,6 +873,45 @@
 				5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		BA5FE3FD2719A313002BFA99 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA5FE3FE2719A313002BFA99 /* CAIconAdView.h */,
+				BA5FE3FF2719A313002BFA99 /* libconsoliads-mediation.a */,
+				BA5FE4002719A313002BFA99 /* CANativeAdMediaView.h */,
+				BA5FE4012719A313002BFA99 /* libConsoliAd.a */,
+				BA5FE4022719A313002BFA99 /* ConsoliAdsBannerTypes.h */,
+				BA5FE4032719A313002BFA99 /* IconAdView.h */,
+				BA5FE4042719A313002BFA99 /* ConsoliAdIOSPlugin.h */,
+				BA5FE4052719A313002BFA99 /* .gitkeep */,
+				BA5FE4062719A313002BFA99 /* CAMediatedBannerView.h */,
+				BA5FE4072719A313002BFA99 /* NativeAdBase.h */,
+				BA5FE4082719A313002BFA99 /* MediationNativeAdView.h */,
+				BA5FE4092719A313002BFA99 /* ConsoliAdsIconAdSizes.h */,
+				BA5FE40A2719A313002BFA99 /* libConsoliMediation.a */,
+				BA5FE40B2719A313002BFA99 /* MediationNativeAdView.xib */,
+				BA5FE40C2719A313002BFA99 /* ConsoliSDKAdsDelegate.h */,
+				BA5FE40D2719A313002BFA99 /* CAMediatedNativeAd.h */,
+				BA5FE40E2719A313002BFA99 /* CAMediationConstants.h */,
+				BA5FE40F2719A313002BFA99 /* CAInAppDetails.h */,
+				BA5FE4102719A313002BFA99 /* ConsoliAdsMediationIconAdDelegate.h */,
+				BA5FE4112719A313002BFA99 /* ConsoliAdsMediationDelegate.h */,
+				BA5FE4122719A313002BFA99 /* MediationNativeAdView.m */,
+				BA5FE4132719A313002BFA99 /* IconAdBase.h */,
+				BA5FE4142719A313002BFA99 /* CAAdChoicesView.h */,
+				BA5FE4152719A313002BFA99 /* CANativeAdRenderingDelegate.h */,
+				BA5FE4162719A313002BFA99 /* BannerAdDelegate.h */,
+				BA5FE4172719A313002BFA99 /* NativeAdView.h */,
+				BA5FE4182719A313002BFA99 /* ConsoliAdsMediation.h */,
+				BA5FE4192719A313002BFA99 /* CAInAppError.h */,
+				BA5FE41A2719A313002BFA99 /* CANativeAdRequestDelegate.h */,
+				BA5FE41B2719A313002BFA99 /* ReplaceMe.m */,
+				BA5FE41C2719A313002BFA99 /* IconAdDelegate.h */,
+			);
+			name = Classes;
+			path = ConsoliadsPod/Classes;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -954,7 +1055,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5FE4342719A313002BFA99 /* CANativeAdRenderingDelegate.h in Headers */,
+				BA5FE4222719A313002BFA99 /* IconAdView.h in Headers */,
+				BA5FE42D2719A313002BFA99 /* CAMediationConstants.h in Headers */,
+				BA5FE41F2719A313002BFA99 /* CANativeAdMediaView.h in Headers */,
+				BA5FE4332719A313002BFA99 /* CAAdChoicesView.h in Headers */,
+				BA5FE4232719A313002BFA99 /* ConsoliAdIOSPlugin.h in Headers */,
+				BA5FE4262719A313002BFA99 /* NativeAdBase.h in Headers */,
 				355A4E0C90DEE012B6A582F94DE71D62 /* ConsoliadsPod-umbrella.h in Headers */,
+				BA5FE42E2719A313002BFA99 /* CAInAppDetails.h in Headers */,
+				BA5FE4302719A313002BFA99 /* ConsoliAdsMediationDelegate.h in Headers */,
+				BA5FE4372719A313002BFA99 /* ConsoliAdsMediation.h in Headers */,
+				BA5FE42F2719A313002BFA99 /* ConsoliAdsMediationIconAdDelegate.h in Headers */,
+				BA5FE41D2719A313002BFA99 /* CAIconAdView.h in Headers */,
+				BA5FE4392719A313002BFA99 /* CANativeAdRequestDelegate.h in Headers */,
+				BA5FE4282719A313002BFA99 /* ConsoliAdsIconAdSizes.h in Headers */,
+				BA5FE42C2719A313002BFA99 /* CAMediatedNativeAd.h in Headers */,
+				BA5FE42B2719A313002BFA99 /* ConsoliSDKAdsDelegate.h in Headers */,
+				BA5FE4272719A313002BFA99 /* MediationNativeAdView.h in Headers */,
+				BA5FE4382719A313002BFA99 /* CAInAppError.h in Headers */,
+				BA5FE4252719A313002BFA99 /* CAMediatedBannerView.h in Headers */,
+				BA5FE4322719A313002BFA99 /* IconAdBase.h in Headers */,
+				BA5FE4352719A313002BFA99 /* BannerAdDelegate.h in Headers */,
+				BA5FE43B2719A313002BFA99 /* IconAdDelegate.h in Headers */,
+				BA5FE4212719A313002BFA99 /* ConsoliAdsBannerTypes.h in Headers */,
+				BA5FE4362719A313002BFA99 /* NativeAdView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1171,6 +1296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5FE4242719A313002BFA99 /* .gitkeep in Resources */,
+				BA5FE42A2719A313002BFA99 /* MediationNativeAdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1209,6 +1336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5FE43A2719A313002BFA99 /* ReplaceMe.m in Sources */,
+				BA5FE4312719A313002BFA99 /* MediationNativeAdView.m in Sources */,
 				B96E90045B2DE6ED776BD03440466B12 /* ConsoliadsPod-dummy.m in Sources */,
 				1C96BDC702E1B946D395F0C075A5C3C2 /* ReplaceMe.m in Sources */,
 			);
@@ -1807,8 +1936,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
