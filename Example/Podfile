@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ConsoliadsPod_Example' do
-  pod 'ConsoliadsPod', :path => '../'
+  pod 'ConsoliadsPod', :path => 'https://github.com/wazma/ConsoliAdsPod/releases/tag/0.1.3'
 
   target 'ConsoliadsPod_Tests' do
     inherit! :search_paths
