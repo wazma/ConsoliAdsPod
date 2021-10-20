@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wazma Ali' => 'wazma.ali@consoliads.com' }
-  s.source           = { :https => 'https://raw.githubusercontent.com/wazma/ConsoliAdsPod/main/Example/Pods/Zip/Mediation.zip' }
+  s.source           = { :githubusercontent => 'https://raw.githubusercontent.com/wazma/ConsoliAdsPod/main/Example/Pods/Zip/Mediation.zip' }
    s.social_media_url = 'https://twitter.com/wazma'
 
   s.ios.deployment_target = '10.0'
