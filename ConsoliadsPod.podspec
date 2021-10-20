@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ConsoliadsPod/Classes/**/*'
+#  s.source_files = 'ConsoliadsPod/Classes/**/*.{h,m}'
 
   s.platforms={
     "ios":"10.0"
